@@ -14,7 +14,7 @@ glob.sync('./src/pages/**/app.js').forEach(path => {
   pages[chunk] = {
     entry: path,
     template: templates[chunk] ? templates[chunk] : 'public/index.html',
-    title: titles[chunk] ? titles[chunk] : '熊猫博士',
+    title: titles[chunk] ? titles[chunk] : 'Dr. Panda',
     data: chunk,
     filename: filename,
     chunks: ['chunk-vendors', 'chunk-common', chunk]

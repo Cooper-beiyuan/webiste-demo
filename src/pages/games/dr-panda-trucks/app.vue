@@ -19,8 +19,8 @@ export default {
     };
   },
   created: function() {
-    this.title = window.pageData.title;
-    this.subtitle = window.pageData.subtitle;
+    this.title = window.pageData.en.title;
+    this.subtitle = window.pageData.en.subtitle;
   }
 };
 </script>
