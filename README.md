@@ -23,7 +23,7 @@ npm run lint
 ### This demo is used to explain how to modify dynamic content through a JS script.
 Example: You can visit http://localhost:8080/ and http://localhost:8080/town, you see different title.
 But their code is almost the same. The title and subtitle is from a js script we named page data.
-You can see how it work in public/index.html
+You can see how it work in public/index.html.
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -45,3 +45,7 @@ You can see how it work in public/index.html
   </body>
 </html>
 ```
+
+There is one page data, you can see. Can help you understand more easily.
+<br>
+https://cdn-dev.xiongmaoboshi.com/website/page/games/dr-panda-trucks/data.js
